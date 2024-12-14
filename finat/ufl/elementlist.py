@@ -116,7 +116,7 @@ register_element("Reduced-Hsieh-Clough-Tocher", "HCT-red", 0, H2, "custom", (3, 
 register_element("Bell", "BELL", 0, H2, "custom", (5, 5), ("triangle",))
 register_element("Brezzi-Douglas-Fortin-Marini", "BDFM", 1, HDiv,
                  "contravariant Piola", (1, None), simplices[1:])
-register_element("Crouzeix-Raviart", "CR", 0, L2, "identity", (1, 1),
+register_element("Crouzeix-Raviart", "CR", 0, L2, "identity", (1, 3),
                  simplices[1:])
 # TODO: Implement generic Tear operator for elements instead of this:
 register_element("Discontinuous Raviart-Thomas", "DRT", 1, L2,
